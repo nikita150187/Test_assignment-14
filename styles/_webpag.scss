@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,8 @@
 }
 
 body{
-    
+    width: 100%;
+    height: 100vh;
     background-position: center;
     background-size: cover;
     
@@ -16,16 +18,17 @@ body{
 .container{
     background-image: url(/images/pg-1-background.jpg) ;
     background-repeat: no-repeat;
-    max-width: 100%;
-    min-height: 100vh;
+    max-width: 1770px;
+    min-height: 820px;
     align-items: center;
     justify-content: center;
     display: flex;
     text-align: center;
     color: #FFFFFF;
-    
-
   
+}
+.list{
+    margin-top: 10%;
 }
 
 .name-logo{
@@ -84,7 +87,7 @@ form button{
 .rectangle{
     max-width: 100%;
     width: 1773px;
-    height: 50px;
+    height: 83px;
     align-items: center;
     display: flex;
     background-color: #5474FD;
