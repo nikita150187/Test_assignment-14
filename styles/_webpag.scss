@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.container{
+    background-image: url(/images/pg-1-background.jpg) ;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+    
+
+  
+}
+
+.name-logo{
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Josefin sans';
+}
+.text-logo{
+    font-size: 22px;
+    font-family: 'Josefin sans';
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+form input{
+    width: 500px;
+    height: 60px;
+    background-color: #FFFFFF;  
+    flex: 1;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+form button{
+    width: 153px;
+    height: 60px;
+    color: #FFFFFF;
+    background-color: #5474FD;
+    padding: 10px 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.fa-sharp-duotone {
+    justify-content: flex-end;
+     
+    
+}
+.sub-btn:hover{
+    color: #496BFE;
+    cursor: pointer;
+    color: black;
+    background-color:#5474FD;
+    border: solid rgb(44, 44, 121);
+
+}
+.scroll-down{
+    margin-top: 20%;
+    
+}
+
+/*  page header*/
+
+.header .container-1{
+    align-content: end;
+}
+.rectangle{
+    max-width: 100%;
+    width: 1773px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    background-color: #5474FD;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+/* nav- section*/
+
+.container-1{
+    display: flex;
+    color: #FFFFFF;
+    
+}
+.ul-bottom{
+    display: flex; 
+      
+    
+}
+
+
+.ul-bottom li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 1rem;
+   
+  
+}
+
+
+/* main-page-*/
+
+.container-choose{
+    background-image: url(/images/pg-2-background.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    text-align: start;
+    background-size: cover;
+    
+}
+.text-title{
+    font-size: 36px;
+    font-family: 'Aleo' sans-serif;
+    color: #FFFFFF;
+    
+}
+
+.choose-info{
+    font-size: 16px;
+    font-family: 'Josefin sans';
+    line-height: 1.6;  
+    color: #E8E8E8;
+
+}
+.explore-btn{
+    width: 228px;
+    height: 63px;
+    background-color: #496BFE;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Aleo' sans-serif;
+}
+
+.explore-btn:hover{
+    color: #496BFE;
+    cursor: pointer;
+    color: black;
+    background-color:#5474FD;
+    border: solid rgb(44, 44, 121);
+}
+
+.images-choose{
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+.img-2-1{
+
+    align-items: flex-start;
+
+}
+.img-2-2{
+    margin-left: 50px;
+
+}
+
+/* search section*/
+
+.rectangle-2{
+    width: 100%;
+    height: 340px;
+    background-color: #333333;
+    max-width: 100%;
+    min-height: 100vh;
+    
+}
+
+
+.search-part{
+    background-color: #333333;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 340px;
+    justify-content: space-evenly;
+    
+    
+}
+.rectangle-3{
+    display: flex;
+    gap: 10%;
+    
+}
+.rectabgle-4{
+    width: 353px;
+    height: 163px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #5474FD;
+   
+    
+    
+}
+.fa-magnifying-glass{
+    font-size: 50px;
+    margin-left: 20px;
+
+}
+
+.square-1{
+    width: 200px;
+    height: 161px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(219, 61, 61);
+
+}
+.fa-circle-check{
+    font-size: 50px;
+    margin-left: 20px;
+
+}
+.square-2{
+    width: 215px;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #333333;
+    color: #5474FD;
+    margin-left: 30px;
+
+}
+.fa-thumbs-up{
+    font-size: 50px;
+    margin-left: 20px;
+    
+}
+.search-item1{
+    color: #FFFFFF;
+    line-height: 1.8;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.search-item2{
+    color: #FFFFFF;
+    line-height: 1.8;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.search-item3{
+    color: #FFFFFF;
+    line-height: 1.8;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 40px;
+}
