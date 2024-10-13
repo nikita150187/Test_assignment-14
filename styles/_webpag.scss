@@ -279,3 +279,226 @@ form button{
     text-align: center;
     margin-right: 40px;
 }
+
+/* Grand section*/
+
+.grand-spain{
+    background-image: url(/images/pg-3-background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.square-main{
+    width: 540px;
+    height: 371px;
+    background-color: #232323;
+    color: #FFFFFF;
+    line-height: 1.6;
+    margin-right: 18%;
+    margin-top: 12%;
+    text-align: start;
+    padding: 30px;
+    line-height: 1.8;
+    opacity: 0.8;
+    
+}
+.spain{
+    font-size: 20px;
+    font-family: 'Josefin sans';
+}
+
+.spain-info .spain-info-2{
+    font-size: 16px;
+    font-family: 'Josefin sans';
+    
+
+}
+.book-btn {
+    width: 228px;
+    height: 63px;
+    background-color: #496BFE;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Aleo' sans-serif;
+
+}
+.book-btn:hover{
+    color: #496BFE;
+    cursor: pointer;
+    color: black;
+    background-color:#5474FD;
+    border: solid rgb(44, 44, 121);
+}
+.grand-spain-2{
+    background-image: url(/images/pg-4-background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.square-main-2{
+    width: 540px;
+    height: 371px;
+    background-color: #232323;
+    color: #FFFFFF;
+    line-height: 1.6;
+    margin-left: 50%;
+    margin-top: 12%;
+    text-align: start;
+    padding: 30px;
+    line-height: 1.8;
+    opacity: 0.8;
+    
+}
+.spain-2{
+    font-size: 20px;
+    font-family: 'Josefin sans';
+}
+
+.spain-info .spain-info-2{
+    font-size: 16px;
+    font-family: 'Josefin sans';
+    
+
+}
+.book-btn-2 {
+    width: 228px;
+    height: 63px;
+    background-color: #496BFE;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Aleo' sans-serif;
+
+}
+.book-btn-2:hover{
+    color: #496BFE;
+    cursor: pointer;
+    color: black;
+    background-color:#5474FD;
+    border: solid rgb(44, 44, 121);
+}
+
+/* Tourist view*/
+
+
+.tourist-view{
+    background-image: url(/images/pg-5-background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+}
+
+.heading{
+    font-family: 'Aleo' sans-serif;
+    text-align: center;  
+    color: #FFFFFF;
+}
+.heading h2{
+    font-size: 36px;
+    margin-left: 10%;
+}
+
+.rectangle-tour{
+    max-width:100%;
+    width: 570px;
+    height: 284px;
+    background-color: #333333;
+    line-height: 1.2;
+}
+.img-text{
+    display: flex;
+    justify-content: start;
+    margin-top: 8%;
+    text-align: start;
+    
+}
+.tour-name{
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Aleo' sans-serif;
+}
+.view-text p{
+    padding: 1%;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    
+}
+.fa-quote-left{
+    font-size: 35px;
+    color: #5474FD;
+    
+}
+
+
+/*  Footer section*/
+
+.footer-container{
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.footer-rectangle{
+    background-color: #232323;
+    text-align: center;
+    min-height: 100vh;
+    color: #FFFFFF;
+    line-height: 1.2;
+    font-family: 'Josefin sans';
+
+}
+.footer-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5%;
+   
+}
+.footer-text{
+     font-size: 16px;
+}
+
+.icon-list{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.icon-list .fa-facebook-f:hover{
+    color: #5474FD;
+
+}
+.icon-list .fa-twitter:hover{
+    color: #5474FD;
+
+}
+.fa-linkedin-in{
+    color: blue;
+}
+.icon-list .fa-linkedin-in:hover{
+    color: #5474FD;
+
+}
+.icon-list .fa-youtube:hover{
+    color: #5474FD;
+
+}
+
+.icon-list .fa-pinterest:hover{
+    color: #5474FD;
+
+}
